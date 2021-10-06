@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+.ethanhat {
+	display: block; margin: 0 auto;
+	height: 50%;
+	width: 25%;
+}
+
+.myNewStyle {
+   font-family: "Franklin Gothic Bold", "Arial Black", "sans-serif";
+   font-weight: bold;
+   color: #FF0450;
+	font-size: 10550;
+	text-shadow: 5px 6px 12px #004085;
+text-align: center}
+
+@keyframes strike{
+  0%   { width : 0; }
+  100% { width: 100%; }
+}
+.strike {
+  position: relative;
+}
+.strike::after {
+  content: ' ';
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background: black;
+  animation-name: strike;
+  animation-duration: 4s;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards; 
+	text-align: justify;
+}
+
+.strike {
+	font-family: "Lucida Sans Typewriter";
+	font-weight: bolder;
+	color: #569828;
+	text-shadow: 3px 2px 5px #006722;
+}
+
+.Campfire.mp4 {
+	
+	height: 30%;
+	width: 30%;
+	}
+
+.link {
+	font-family: "DejaVu Sans Condensed";
+	font-weight: lighter;
+	color: #00FF1B;
+	text-shadow: 6px 4px 2px #099634;	
+	align-self: stretch;
+	text-align: right;
+	position: fixed 300, 500, 300;
+	
+	}
+.email {
+	font-family: "almendra-sc";
+	color: #AD3CCE;
+	text-align: center;
+	align-content: center;
+}
+
+.vhs {
+	position: relative;
+  display: flex;
+  align-items: right;
+}
+	
+.qr {
+ 
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-end;
+}
+
+.song {
+	justify-content: center;
+}
+button { 
+color: #3F6ECE;	
+}
+.text-center {
+  text-align: center;
+}
